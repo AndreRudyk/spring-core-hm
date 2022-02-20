@@ -55,10 +55,6 @@ class TicketServiceImplTest {
     }
 
     @Test
-    void bookTicket() {
-    }
-
-    @Test
     void getBookedTickets_returnsBookedTicketsListWithSameUserIdTest() {
         final User user = new UserImpl();
         user.setId(1L);
